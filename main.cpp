@@ -30,9 +30,9 @@ int main(){
      switch(mychoice)
      {
      	case 1:
-     	 if (random()==0)
+     	 if (random()==0)       //if the  number on dice will be 0 then we will incriment it
      	 {
-     	 	  // random()= random()+1;
+     	 	 
      	 	int k=random()+1;
      	 	   cout<<k;
      	 }
