@@ -30,7 +30,15 @@ int main(){
      switch(mychoice)
      {
      	case 1:
-     	cout<<random()<<endl;
+     	 if (random()==0)
+     	 {
+     	 	  // random()= random()+1;
+     	 	int k=random()+1;
+     	 	   cout<<k;
+     	 }
+     	 else{
+     	 	cout<<random();
+     	 }
      	break;
 
      	case 2:
